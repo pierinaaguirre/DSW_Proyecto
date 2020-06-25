@@ -1,0 +1,170 @@
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\ProyectoVenta.dll.config
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\ProyectoVenta.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\ProyectoVenta.pdb
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csc.exe
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csc.exe.config
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csc.rsp
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csi.exe
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csi.exe.config
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csi.rsp
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.AppContext.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Console.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.Compression.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Claims.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.ValueTuple.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\vbc.exe
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\vbc.exe.config
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\vbc.rsp
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Antlr3.Runtime.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Newtonsoft.Json.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Helpers.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Mvc.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Optimization.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Razor.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\WebGrease.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Helpers.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Mvc.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Optimization.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Razor.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Newtonsoft.Json.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Antlr3.Runtime.pdb
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Razor.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.csprojAssemblyReference.cache
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.csproj.CoreCompileInputs.cache
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.csproj.CopyComplete
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.dll
+C:\Users\Pierina\Documents\cibertec\ciclo5\Desarrollo de Servicios Web\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.pdb
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\ProyectoVenta.dll.config
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\ProyectoVenta.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\ProyectoVenta.pdb
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csc.exe
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csc.exe.config
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csc.rsp
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csi.exe
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csi.exe.config
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\csi.rsp
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.AppContext.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Console.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.Compression.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.IO.Pipes.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Claims.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.ValueTuple.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\vbc.exe
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\vbc.exe.config
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\vbc.rsp
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\VBCSCompiler.exe
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Antlr3.Runtime.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\EntityFramework.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\EntityFramework.SqlServer.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Newtonsoft.Json.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Helpers.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Mvc.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Optimization.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Razor.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Razor.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\WebGrease.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\EntityFramework.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\EntityFramework.SqlServer.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Helpers.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Mvc.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Optimization.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.Razor.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\System.Web.WebPages.Razor.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Newtonsoft.Json.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Antlr3.Runtime.pdb
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Helpers.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Mvc.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Optimization.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.Razor.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.WebPages.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.csprojAssemblyReference.cache
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.csproj.CoreCompileInputs.cache
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.csproj.CopyComplete
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.dll
+C:\Users\kelly\OneDrive\Documentos\Pierina\Nueva carpeta\ProyectoVenta\ProyectoVenta\obj\Debug\ProyectoVenta.pdb

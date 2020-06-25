@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProductosOrganicosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="idcategoria" />
+    </Key>
+    <Property Name="idcategoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreCategoria" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Productoes" Relationship="Self.FK__Producto__idcate__1DE57479" FromRole="Categoria" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="idcliente" />
+    </Key>
+    <Property Name="idcliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreCliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellidoCliente" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dirCliente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="distrito" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefonoCliente" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contraseña" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="PedidosCabes" Relationship="Self.FK__PedidosCa__idcli__25869641" FromRole="Cliente" ToRole="PedidosCabe" />
+  </EntityType>
+  <EntityType Name="Pai">
+    <Key>
+      <PropertyRef Name="idpais" />
+    </Key>
+    <Property Name="idpais" Type="Int32" Nullable="false" />
+    <Property Name="nombrePais" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Proveedors" Relationship="Self.FK__Proveedor__idpai__1920BF5C" FromRole="Pais" ToRole="Proveedor" />
+  </EntityType>
+  <EntityType Name="PedidosCabe">
+    <Key>
+      <PropertyRef Name="idpedidocabe" />
+    </Key>
+    <Property Name="idpedidocabe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idcliente" Type="Int32" Nullable="false" />
+    <Property Name="fechaPedida" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fechaEntrega" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fechaEnvio" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="pedidoscabecol" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__PedidosCa__idcli__25869641" FromRole="PedidosCabe" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="PedidosDeta">
+    <Key>
+      <PropertyRef Name="idpedido" />
+    </Key>
+    <Property Name="idpedido" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idproducto" Type="Int32" Nullable="false" />
+    <Property Name="precioUnidad" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <Property Name="descuento" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="Self.FK__PedidosDe__idpro__21B6055D" FromRole="PedidosDeta" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="idproducto" />
+    </Key>
+    <Property Name="idproducto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreProducto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idcategoria" Type="Int32" Nullable="false" />
+    <Property Name="precioUnidad" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="stock" Type="Int32" Nullable="false" />
+    <Property Name="idproveedor" Type="Int32" Nullable="false" />
+    <Property Name="Activo" Type="Boolean" />
+    <NavigationProperty Name="Categoria" Relationship="Self.FK__Producto__idcate__1DE57479" FromRole="Producto" ToRole="Categoria" />
+    <NavigationProperty Name="PedidosDetas" Relationship="Self.FK__PedidosDe__idpro__21B6055D" FromRole="Producto" ToRole="PedidosDeta" />
+    <NavigationProperty Name="Proveedor" Relationship="Self.FK__Producto__idprov__1ED998B2" FromRole="Producto" ToRole="Proveedor" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="idproveedor" />
+    </Key>
+    <Property Name="idproveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreProveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dirProveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="numTelefono" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="correoProveedor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idpais" Type="Int32" Nullable="false" />
+    <Property Name="ruc" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Pai" Relationship="Self.FK__Proveedor__idpai__1920BF5C" FromRole="Proveedor" ToRole="Pais" />
+    <NavigationProperty Name="Productoes" Relationship="Self.FK__Producto__idprov__1ED998B2" FromRole="Proveedor" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="idrol" />
+    </Key>
+    <Property Name="idrol" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreRol" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.FK__Usuario__idrol__1273C1CD" FromRole="Rol" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dni" Type="Int32" Nullable="false" />
+    <Property Name="fecIngreso" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="idrol" Type="Int32" Nullable="false" />
+    <Property Name="correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contraseña" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Rol" Relationship="Self.FK__Usuario__idrol__1273C1CD" FromRole="Usuario" ToRole="Rol" />
+  </EntityType>
+  <Association Name="FK__Producto__idcate__1DE57479">
+    <End Role="Categoria" Type="Self.Categoria" Multiplicity="1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="idcategoria" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="idcategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PedidosCa__idcli__25869641">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="PedidosCabe" Type="Self.PedidosCabe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="idcliente" />
+      </Principal>
+      <Dependent Role="PedidosCabe">
+        <PropertyRef Name="idcliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Proveedor__idpai__1920BF5C">
+    <End Role="Pais" Type="Self.Pai" Multiplicity="1" />
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pais">
+        <PropertyRef Name="idpais" />
+      </Principal>
+      <Dependent Role="Proveedor">
+        <PropertyRef Name="idpais" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PedidosDe__idpro__21B6055D">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
+    <End Role="PedidosDeta" Type="Self.PedidosDeta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="idproducto" />
+      </Principal>
+      <Dependent Role="PedidosDeta">
+        <PropertyRef Name="idproducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Producto__idprov__1ED998B2">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="1" />
+    <End Role="Producto" Type="Self.Producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="idproveedor" />
+      </Principal>
+      <Dependent Role="Producto">
+        <PropertyRef Name="idproveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Usuario__idrol__1273C1CD">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="idrol" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idrol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProductosOrganicosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categorias" EntityType="Self.Categoria" />
+    <EntitySet Name="Clientes" EntityType="Self.Cliente" />
+    <EntitySet Name="Pais" EntityType="Self.Pai" />
+    <EntitySet Name="PedidosCabes" EntityType="Self.PedidosCabe" />
+    <EntitySet Name="PedidosDetas" EntityType="Self.PedidosDeta" />
+    <EntitySet Name="Productoes" EntityType="Self.Producto" />
+    <EntitySet Name="Proveedors" EntityType="Self.Proveedor" />
+    <EntitySet Name="Rols" EntityType="Self.Rol" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuario" />
+    <AssociationSet Name="FK__Producto__idcate__1DE57479" Association="Self.FK__Producto__idcate__1DE57479">
+      <End Role="Categoria" EntitySet="Categorias" />
+      <End Role="Producto" EntitySet="Productoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PedidosCa__idcli__25869641" Association="Self.FK__PedidosCa__idcli__25869641">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="PedidosCabe" EntitySet="PedidosCabes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Proveedor__idpai__1920BF5C" Association="Self.FK__Proveedor__idpai__1920BF5C">
+      <End Role="Pais" EntitySet="Pais" />
+      <End Role="Proveedor" EntitySet="Proveedors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PedidosDe__idpro__21B6055D" Association="Self.FK__PedidosDe__idpro__21B6055D">
+      <End Role="Producto" EntitySet="Productoes" />
+      <End Role="PedidosDeta" EntitySet="PedidosDetas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Producto__idprov__1ED998B2" Association="Self.FK__Producto__idprov__1ED998B2">
+      <End Role="Proveedor" EntitySet="Proveedors" />
+      <End Role="Producto" EntitySet="Productoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Usuario__idrol__1273C1CD" Association="Self.FK__Usuario__idrol__1273C1CD">
+      <End Role="Rol" EntitySet="Rols" />
+      <End Role="Usuario" EntitySet="Usuarios" />
+    </AssociationSet>
+    <FunctionImport Name="usp_Categoria_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Categoria_Listar_Result)" />
+    <FunctionImport Name="usp_Cliente_Datos" ReturnType="Collection(ProductosOrganicosModel.usp_Cliente_Datos_Result)">
+      <Parameter Name="IdCliente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Cliente_Eliminar">
+      <Parameter Name="idCliente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Cliente_Insertar">
+      <Parameter Name="nombreCliente" Mode="In" Type="String" />
+      <Parameter Name="apellidoCliente" Mode="In" Type="String" />
+      <Parameter Name="dirCliente" Mode="In" Type="String" />
+      <Parameter Name="distrito" Mode="In" Type="String" />
+      <Parameter Name="telefonoCliente" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="contraseña" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Cliente_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Cliente_Listar_Result)" />
+    <FunctionImport Name="usp_Cliente_Update">
+      <Parameter Name="idCliente" Mode="In" Type="Int32" />
+      <Parameter Name="nombreCliente" Mode="In" Type="String" />
+      <Parameter Name="apellidoCliente" Mode="In" Type="String" />
+      <Parameter Name="dirCliente" Mode="In" Type="String" />
+      <Parameter Name="distrito" Mode="In" Type="String" />
+      <Parameter Name="telefonoCliente" Mode="In" Type="String" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="contraseña" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Pais_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Pais_Listar_Result)" />
+    <FunctionImport Name="usp_Producto_Actualizar">
+      <Parameter Name="idProducto" Mode="In" Type="Int32" />
+      <Parameter Name="nombreProducto" Mode="In" Type="String" />
+      <Parameter Name="descripcion" Mode="In" Type="String" />
+      <Parameter Name="idcategoria" Mode="In" Type="Int32" />
+      <Parameter Name="precioUnidad" Mode="In" Type="Decimal" />
+      <Parameter Name="stock" Mode="In" Type="Int32" />
+      <Parameter Name="idproveedor" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Producto_Datos" ReturnType="Collection(ProductosOrganicosModel.usp_Producto_Datos_Result)">
+      <Parameter Name="IdProducto" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Producto_Eliminar">
+      <Parameter Name="idProducto" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Producto_Insertar">
+      <Parameter Name="nombreProducto" Mode="In" Type="String" />
+      <Parameter Name="descripcion" Mode="In" Type="String" />
+      <Parameter Name="idcategoria" Mode="In" Type="Int32" />
+      <Parameter Name="precioUnidad" Mode="In" Type="Decimal" />
+      <Parameter Name="stock" Mode="In" Type="Int32" />
+      <Parameter Name="idproveedor" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Producto_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Producto_Listar_Result)" />
+    <FunctionImport Name="usp_Proveedor_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Proveedor_Listar_Result)" />
+    <FunctionImport Name="usp_Rol_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Rol_Listar_Result)" />
+    <FunctionImport Name="usp_Usuario_Actualizar">
+      <Parameter Name="idUsuario" Mode="In" Type="Int32" />
+      <Parameter Name="nombre" Mode="In" Type="String" />
+      <Parameter Name="apellido" Mode="In" Type="String" />
+      <Parameter Name="telefono" Mode="In" Type="String" />
+      <Parameter Name="direccion" Mode="In" Type="String" />
+      <Parameter Name="dni" Mode="In" Type="Int32" />
+      <Parameter Name="idrol" Mode="In" Type="Int32" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="contraseña" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Usuario_Datos" ReturnType="Collection(ProductosOrganicosModel.usp_Usuario_Datos_Result)">
+      <Parameter Name="IdUsuario" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Usuario_Eliminar">
+      <Parameter Name="idUsuario" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Usuario_Insertar">
+      <Parameter Name="nombre" Mode="In" Type="String" />
+      <Parameter Name="apellido" Mode="In" Type="String" />
+      <Parameter Name="telefono" Mode="In" Type="String" />
+      <Parameter Name="direccion" Mode="In" Type="String" />
+      <Parameter Name="dni" Mode="In" Type="Int32" />
+      <Parameter Name="idrol" Mode="In" Type="Int32" />
+      <Parameter Name="correo" Mode="In" Type="String" />
+      <Parameter Name="contraseña" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="usp_Usuario_Listar" ReturnType="Collection(ProductosOrganicosModel.usp_Usuario_Listar_Result)" />
+  </EntityContainer>
+  <ComplexType Name="usp_Categoria_Listar_Result">
+    <Property Type="Int32" Name="idcategoria" Nullable="false" />
+    <Property Type="String" Name="nombreCategoria" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="100" />
+  </ComplexType>
+  <ComplexType Name="usp_Cliente_Datos_Result">
+    <Property Type="Int32" Name="idcliente" Nullable="false" />
+    <Property Type="String" Name="nombreCliente" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellidoCliente" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="dirCliente" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="distrito" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="telefonoCliente" Nullable="false" MaxLength="9" />
+    <Property Type="String" Name="correo" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="contraseña" Nullable="false" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="usp_Cliente_Listar_Result">
+    <Property Type="Int32" Name="idcliente" Nullable="false" />
+    <Property Type="String" Name="nombreCliente" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellidoCliente" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="dirCliente" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="distrito" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="telefonoCliente" Nullable="false" MaxLength="9" />
+    <Property Type="String" Name="correo" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="contraseña" Nullable="false" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="usp_Pais_Listar_Result">
+    <Property Type="Int32" Name="idpais" Nullable="false" />
+    <Property Type="String" Name="nombrePais" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="usp_Producto_Datos_Result">
+    <Property Type="Int32" Name="idproducto" Nullable="false" />
+    <Property Type="String" Name="nombreProducto" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="300" />
+    <Property Type="Int32" Name="idcategoria" Nullable="false" />
+    <Property Type="Decimal" Name="precioUnidad" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="stock" Nullable="false" />
+    <Property Type="Int32" Name="idproveedor" Nullable="false" />
+    <Property Type="Boolean" Name="Activo" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_Producto_Listar_Result">
+    <Property Type="Int32" Name="idproducto" Nullable="false" />
+    <Property Type="String" Name="nombreProducto" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="descripcion" Nullable="false" MaxLength="300" />
+    <Property Type="Int32" Name="idcategoria" Nullable="false" />
+    <Property Type="Decimal" Name="precioUnidad" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="stock" Nullable="false" />
+    <Property Type="Int32" Name="idproveedor" Nullable="false" />
+    <Property Type="Boolean" Name="Activo" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_Proveedor_Listar_Result">
+    <Property Type="Int32" Name="idproveedor" Nullable="false" />
+    <Property Type="String" Name="nombreProveedor" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="dirProveedor" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="numTelefono" Nullable="false" MaxLength="9" />
+    <Property Type="String" Name="correoProveedor" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="idpais" Nullable="false" />
+    <Property Type="Int32" Name="ruc" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="usp_Rol_Listar_Result">
+    <Property Type="Int32" Name="idrol" Nullable="false" />
+    <Property Type="String" Name="nombreRol" Nullable="false" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="usp_Usuario_Datos_Result">
+    <Property Type="Int32" Name="idUsuario" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="9" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="dni" Nullable="false" />
+    <Property Type="DateTime" Name="fecIngreso" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="idrol" Nullable="false" />
+    <Property Type="String" Name="correo" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="contraseña" Nullable="false" MaxLength="20" />
+  </ComplexType>
+  <ComplexType Name="usp_Usuario_Listar_Result">
+    <Property Type="Int32" Name="idUsuario" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="apellido" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="telefono" Nullable="false" MaxLength="9" />
+    <Property Type="String" Name="direccion" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="dni" Nullable="false" />
+    <Property Type="DateTime" Name="fecIngreso" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="idrol" Nullable="false" />
+    <Property Type="String" Name="correo" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="contraseña" Nullable="false" MaxLength="20" />
+  </ComplexType>
+</Schema>

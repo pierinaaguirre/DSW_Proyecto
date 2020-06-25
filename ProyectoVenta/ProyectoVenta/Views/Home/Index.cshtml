@@ -1,0 +1,674 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="themeSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#themeSlider" data-slide-to="1"></li>
+        <li data-target="#themeSlider" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="imgOverlay"></div>
+            <img style="height:320px;width:100%" src="~/img/banner1.jpg" alt="">
+            <div class="carousel-caption">
+                <!--<h3>First slide</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img style="height:320px;width:100%" src="~/img/banner2.png" alt="">
+            <div class="carousel-caption">
+                <!--<h3>Second slide</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img style="height:320px;width:100%" src="~/img/banner3.png" alt="">
+            <div class="carousel-caption">
+                <!--<h3>Third slide</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>-->
+            </div>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+        <span class="fa fa-chevron-left"></span>
+    </a>
+    <a class="right carousel-control"href="#themeSlider" data-slide="next">
+        <span class="fa fa-chevron-right"></span>
+    </a>
+</div>
+
+<div class="olContent f1"><h2 style="color:black">Busca producto/categoría</h2></div>
+<div class="olSearch fr">
+    <input type="text" placeholder="Ingrese datos" name="searchKey" class="inputComn houseText form-control"/>
+    <div class="searchIcon">
+        <button type="button" class="searchBtn">
+            <img src="~/img/searchIcon.png" />
+        </button>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="page-header">
+            <h2>Nuestros Productos <small>los más vendidos</small></h2>
+        </div>
+    </div>
+</div>
+
+<div class="row product-container">
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/endulzantes4.png" />
+
+            <div class="caption">
+                <h5>Maple Flavored Syrup Lakanto 384ml</h5>
+                <p>S/. 59.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/endulzantes1.jpg" />
+
+            <div class="caption">
+                <h5>Olivico – Miel Orgánica de Abeja x 500 grs.</h5>
+                <p>S/. 25.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/endulzantes2.jpg" />
+
+            <div class="caption">
+                <h5>Nutripanela – Miel de Panela con Mix de Frutas</h5>
+                <p>S/. 22.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/endulzantes3.jpg" />
+
+            <div class="caption">
+                <h5>América Orgánica – Miel de Agave 1.02 Kg.</h5>
+                <p>S/. 70.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/endulzantes5.png" />
+
+            <div class="caption">
+                <h5>Sirope de chocolate Lakanto 473ml</h5>
+                <p>S/. 65.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/aceite1.jpg" />
+
+            <div class="caption">
+                <h5>MIRA - Aceite de Palta Original Plus</h5>
+                <p>S/. 50.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/aceite10.jpg" />
+
+            <div class="caption">
+                <h5>Aceite de semilla de uva spray La Tourangelle 147ml</h5>
+                <p>S/. 40.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/aceite11.png" />
+
+            <div class="caption">
+                <h5>Aceite líquido de coco Nutiva 473 ml</h5>
+                <p>S/. 84.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/aceite12.png" />
+
+            <div class="caption">
+                <h5>Aceite de coco refinado Nutiva 444 ml</h5>
+                <p>S/. 41.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/aceite2.jpg" />
+
+            <div class="caption">
+                <h5>Olivico – Aceite de Oliva Extra Virgen 500ml</h5>
+                <p>S/. 35.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/acite8.jpg" />
+
+            <div class="caption">
+                <h5>Aceite de coco Bioselva 1000 ml</h5>
+                <p>S/. 90.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/barra1.jpg" />
+
+            <div class="caption">
+                <h5>Kuyay – Chocolate 70% con Sal de Maras y Nibs – 70 grs.</h5>
+                <p>S/. 18.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/barra2.jpg" />
+
+            <div class="caption">
+                <h5>Ande Bar – Barras Ligeras de 20 grs. (Pack de 12 unidades)</h5>
+                <p>S/. 40.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/barra3.jpg" />
+
+            <div class="caption">
+                <h5>Ande Bar – Barras Ligeras de 20 grs. (Pack de 12 unidades)</h5>
+                <p>S/. 82.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/barra6.jpg" />
+
+            <div class="caption">
+                <h5>Barras paleo Universal Bakery 38 gr.</h5>
+                <p>S/. 10.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/barra7.png" />
+
+            <div class="caption">
+                <h5>Bar blueberry RXBAR 26 gr.</h5>
+                <p>S/. 8.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/barra8.jpg" />
+
+            <div class="caption">
+                <h5>Bar chocolate sea salt RXBAR 52 gr.</h5>
+                <p>S/. 14.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/pan1.jpg" />
+
+            <div class="caption">
+                <h5>Unión – Pan Multisemillas Y Avena 540 grs.</h5>
+                <p>S/. 9.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/pan2.jpg" />
+
+            <div class="caption">
+                <h5>Unión – Pan Fibra 540 grs.</h5>
+                <p>S/. 9.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:150%"
+                 src="~/img/mantequilla1.png" />
+
+            <div class="caption">
+                <h5>Mantequilla de almendra y coco sachet Nutiva 176 gr</h5>
+                <p>S/. 36.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/mantequilla2.png" />
+
+            <div class="caption">
+                <h5>Mantequilla de chocolate y coco sachet Nutiva 176 gr</h5>
+                <p>S/. 36.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/mantequilla3.png" />
+
+            <div class="caption">
+                <h5>Mantequilla de coco sachet Nutiva 176 gr</h5>
+                <p>S/. 36.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/mantequilla4.jpg" />
+
+            <div class="caption">
+                <h5>Mantequilla de almendras Fit Food 200gr</h5>
+                <p>S/. 33.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/mantequilla5.png" />
+
+            <div class="caption">
+                <h5>Mantequilla de maní crunchy Fit Food 200gr</h5>
+                <p>S/. 14.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/mantequilla6.jpg" />
+
+            <div class="caption">
+                <h5>Tahini gourmet Jallpa 250gr</h5>
+                <p>S/. 17.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/harina1.png" />
+
+            <div class="caption">
+                <h5>Ajonjolí harina Naturandes 200gr</h5>
+                <p>S/. 11.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/harina2.jpg" />
+
+            <div class="caption">
+                <h5>Algarrobo harina tostada Campos de Vida 200gr</h5>
+                <p>S/. 8.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/harina6.jpg" />
+
+            <div class="caption">
+                <h5>Premezcla galletas choco chip Bob’s Red Mill 623gr</h5>
+                <p>S/. 31.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/harina4.png" />
+
+            <div class="caption">
+                <h5>Harina de Sacha inchi Abolengo 250gr</h5>
+                <p>S/. 21.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/harina5.png" />
+
+            <div class="caption">
+                <h5>Quinua harina Amazonia 113 gr</h5>
+                <p>S/. 9.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/harina3.jpg" />
+
+            <div class="caption">
+                <h5>Harina de Arroz Blanco 680 gr.</h5>
+                <p>S/. 17.30</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/chocolate1.jpg" />
+
+            <div class="caption">
+                <h5>Pacari – Barra de Chocolate con Hierbaluisa – 50 gr.</h5>
+                <p>S/. 9.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/chocolates2.jpg" />
+
+            <div class="caption">
+                <h5>Pacari – Barra de Chocolate con Rosas Andinas – 50 grs.</h5>
+                <p>S/. 9.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/chocolates3.jpg" />
+
+            <div class="caption">
+                <h5>Kuyay – Chocolate 70% con Sal de Maras y Nibs – 70 grs.</h5>
+                <p>S/. 18.50</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/chocolates5.png" />
+
+            <div class="caption">
+                <h5>Chocolate de leche a base de proteína con chispas de caramelo salado Slim Secrets 36grs.</h5>
+                <p>S/. 8.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/chocolates6.png" />
+
+            <div class="caption">
+                <h5>Chocolate oscuro con chispas de menta Slim Secrets 36grs.</h5>
+                <p>S/. 8.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/chocolates4.png" />
+
+            <div class="caption">
+                <h5>Chocolate de leche a base de proteína con almendras Slim Secrets 36grs.</h5>
+                <p>S/. 8.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/bebida1.png" />
+
+            <div class="caption">
+                <h5>Néctar Maracumango Beberash 480 ml.</h5>
+                <p>S/. 5.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/bebida2.png" />
+
+            <div class="caption">
+                <h5>Té clásico 480 ml.</h5>
+                <p>S/. 5.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/bebida3.png" />
+
+            <div class="caption">
+                <h5>Té verde diet Beberash 480 ml.</h5>
+                <p>S/. 5.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/leche1.png" />
+
+            <div class="caption">
+                <h5>Bebida vegetal de almendras Barista Pacific 946ml.</h5>
+                <p>S/. 19.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/leche2.png" />
+
+            <div class="caption">
+                <h5>Bebida de almendras original sin endulzar Pacific Foods 946ml.</h5>
+                <p>S/. 17.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/leche3.png" />
+
+            <div class="caption">
+                <h5>Bebida de almendras con chocolate Pacific Foods 4 pack</h5>
+                <p>S/. 24.00</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/leche4.png" />
+
+            <div class="caption">
+                <h5>Bebida de almendras original Pacific Foods 946ml.</h5>
+                <p>S/. 17.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/leche5.jpg" />
+
+            <div class="caption">
+                <h5>Bebida de coco original Pacific Foods 946ml.</h5>
+                <p>S/. 17.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-6" style="margin-bottom:8px">
+        <div class="thumbnail product-item" style="height:350px">
+            <img class="img-responsive" tittle="Detalle de producto"
+                 style="cursor:pointer;height:180px;width:100%"
+                 src="~/img/leche6.png" />
+
+            <div class="caption">
+                <h5>Bebida de soya original sin endulzante Pacific Foods 946ml.</h5>
+                <p>S/. 17.90</p>
+                <p>Disponible</p>
+            </div>
+        </div>
+    </div>
+</div>
+

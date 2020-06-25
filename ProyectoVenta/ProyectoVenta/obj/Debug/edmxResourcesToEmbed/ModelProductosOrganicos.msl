@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProductosOrganicosModelStoreContainer" CdmEntityContainer="ProductosOrganicosEntities">
+    <EntitySetMapping Name="Categorias">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Categoria">
+        <MappingFragment StoreEntitySet="Categoria">
+          <ScalarProperty Name="idcategoria" ColumnName="idcategoria" />
+          <ScalarProperty Name="nombreCategoria" ColumnName="nombreCategoria" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+          <ScalarProperty Name="nombreCliente" ColumnName="nombreCliente" />
+          <ScalarProperty Name="apellidoCliente" ColumnName="apellidoCliente" />
+          <ScalarProperty Name="dirCliente" ColumnName="dirCliente" />
+          <ScalarProperty Name="distrito" ColumnName="distrito" />
+          <ScalarProperty Name="telefonoCliente" ColumnName="telefonoCliente" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pais">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Pai">
+        <MappingFragment StoreEntitySet="Pais">
+          <ScalarProperty Name="idpais" ColumnName="idpais" />
+          <ScalarProperty Name="nombrePais" ColumnName="nombrePais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PedidosCabes">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.PedidosCabe">
+        <MappingFragment StoreEntitySet="PedidosCabe">
+          <ScalarProperty Name="idpedidocabe" ColumnName="idpedidocabe" />
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+          <ScalarProperty Name="fechaPedida" ColumnName="fechaPedida" />
+          <ScalarProperty Name="fechaEntrega" ColumnName="fechaEntrega" />
+          <ScalarProperty Name="fechaEnvio" ColumnName="fechaEnvio" />
+          <ScalarProperty Name="pedidoscabecol" ColumnName="pedidoscabecol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PedidosDetas">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.PedidosDeta">
+        <MappingFragment StoreEntitySet="PedidosDeta">
+          <ScalarProperty Name="idpedido" ColumnName="idpedido" />
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="precioUnidad" ColumnName="precioUnidad" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productoes">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Producto">
+        <MappingFragment StoreEntitySet="Producto">
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="nombreProducto" ColumnName="nombreProducto" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="idcategoria" ColumnName="idcategoria" />
+          <ScalarProperty Name="precioUnidad" ColumnName="precioUnidad" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedors">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Proveedor">
+        <MappingFragment StoreEntitySet="Proveedor">
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="nombreProveedor" ColumnName="nombreProveedor" />
+          <ScalarProperty Name="dirProveedor" ColumnName="dirProveedor" />
+          <ScalarProperty Name="numTelefono" ColumnName="numTelefono" />
+          <ScalarProperty Name="correoProveedor" ColumnName="correoProveedor" />
+          <ScalarProperty Name="idpais" ColumnName="idpais" />
+          <ScalarProperty Name="ruc" ColumnName="ruc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rols">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="idrol" ColumnName="idrol" />
+          <ScalarProperty Name="nombreRol" ColumnName="nombreRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="ProductosOrganicosModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="fecIngreso" ColumnName="fecIngreso" />
+          <ScalarProperty Name="idrol" ColumnName="idrol" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="usp_Categoria_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Categoria_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Categoria_Listar_Result">
+          <ScalarProperty Name="idcategoria" ColumnName="idcategoria" />
+          <ScalarProperty Name="nombreCategoria" ColumnName="nombreCategoria" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Cliente_Datos" FunctionName="ProductosOrganicosModel.Store.usp_Cliente_Datos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Cliente_Datos_Result">
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+          <ScalarProperty Name="nombreCliente" ColumnName="nombreCliente" />
+          <ScalarProperty Name="apellidoCliente" ColumnName="apellidoCliente" />
+          <ScalarProperty Name="dirCliente" ColumnName="dirCliente" />
+          <ScalarProperty Name="distrito" ColumnName="distrito" />
+          <ScalarProperty Name="telefonoCliente" ColumnName="telefonoCliente" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Cliente_Eliminar" FunctionName="ProductosOrganicosModel.Store.usp_Cliente_Eliminar" />
+    <FunctionImportMapping FunctionImportName="usp_Cliente_Insertar" FunctionName="ProductosOrganicosModel.Store.usp_Cliente_Insertar" />
+    <FunctionImportMapping FunctionImportName="usp_Cliente_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Cliente_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Cliente_Listar_Result">
+          <ScalarProperty Name="idcliente" ColumnName="idcliente" />
+          <ScalarProperty Name="nombreCliente" ColumnName="nombreCliente" />
+          <ScalarProperty Name="apellidoCliente" ColumnName="apellidoCliente" />
+          <ScalarProperty Name="dirCliente" ColumnName="dirCliente" />
+          <ScalarProperty Name="distrito" ColumnName="distrito" />
+          <ScalarProperty Name="telefonoCliente" ColumnName="telefonoCliente" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Cliente_Update" FunctionName="ProductosOrganicosModel.Store.usp_Cliente_Update" />
+    <FunctionImportMapping FunctionImportName="usp_Pais_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Pais_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Pais_Listar_Result">
+          <ScalarProperty Name="idpais" ColumnName="idpais" />
+          <ScalarProperty Name="nombrePais" ColumnName="nombrePais" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Producto_Actualizar" FunctionName="ProductosOrganicosModel.Store.usp_Producto_Actualizar" />
+    <FunctionImportMapping FunctionImportName="usp_Producto_Datos" FunctionName="ProductosOrganicosModel.Store.usp_Producto_Datos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Producto_Datos_Result">
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="nombreProducto" ColumnName="nombreProducto" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="idcategoria" ColumnName="idcategoria" />
+          <ScalarProperty Name="precioUnidad" ColumnName="precioUnidad" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Producto_Eliminar" FunctionName="ProductosOrganicosModel.Store.usp_Producto_Eliminar" />
+    <FunctionImportMapping FunctionImportName="usp_Producto_Insertar" FunctionName="ProductosOrganicosModel.Store.usp_Producto_Insertar" />
+    <FunctionImportMapping FunctionImportName="usp_Producto_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Producto_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Producto_Listar_Result">
+          <ScalarProperty Name="idproducto" ColumnName="idproducto" />
+          <ScalarProperty Name="nombreProducto" ColumnName="nombreProducto" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="idcategoria" ColumnName="idcategoria" />
+          <ScalarProperty Name="precioUnidad" ColumnName="precioUnidad" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Proveedor_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Proveedor_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Proveedor_Listar_Result">
+          <ScalarProperty Name="idproveedor" ColumnName="idproveedor" />
+          <ScalarProperty Name="nombreProveedor" ColumnName="nombreProveedor" />
+          <ScalarProperty Name="dirProveedor" ColumnName="dirProveedor" />
+          <ScalarProperty Name="numTelefono" ColumnName="numTelefono" />
+          <ScalarProperty Name="correoProveedor" ColumnName="correoProveedor" />
+          <ScalarProperty Name="idpais" ColumnName="idpais" />
+          <ScalarProperty Name="ruc" ColumnName="ruc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Rol_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Rol_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Rol_Listar_Result">
+          <ScalarProperty Name="idrol" ColumnName="idrol" />
+          <ScalarProperty Name="nombreRol" ColumnName="nombreRol" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Usuario_Actualizar" FunctionName="ProductosOrganicosModel.Store.usp_Usuario_Actualizar" />
+    <FunctionImportMapping FunctionImportName="usp_Usuario_Datos" FunctionName="ProductosOrganicosModel.Store.usp_Usuario_Datos">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Usuario_Datos_Result">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="fecIngreso" ColumnName="fecIngreso" />
+          <ScalarProperty Name="idrol" ColumnName="idrol" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="usp_Usuario_Eliminar" FunctionName="ProductosOrganicosModel.Store.usp_Usuario_Eliminar" />
+    <FunctionImportMapping FunctionImportName="usp_Usuario_Insertar" FunctionName="ProductosOrganicosModel.Store.usp_Usuario_Insertar" />
+    <FunctionImportMapping FunctionImportName="usp_Usuario_Listar" FunctionName="ProductosOrganicosModel.Store.usp_Usuario_Listar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ProductosOrganicosModel.usp_Usuario_Listar_Result">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="dni" ColumnName="dni" />
+          <ScalarProperty Name="fecIngreso" ColumnName="fecIngreso" />
+          <ScalarProperty Name="idrol" ColumnName="idrol" />
+          <ScalarProperty Name="correo" ColumnName="correo" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
